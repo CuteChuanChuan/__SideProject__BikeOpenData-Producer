@@ -17,3 +17,6 @@ This repo includes a producer which call the [Bike OpenData API](https://tcgbusf
    (`docker tag {localImageName}:{tag} {AWS_ACCOUNT_ID}.dkr.ecr.{Region}.amazonaws.com/{repositoryName}:{tag}`)
 4. push the image  
    (`docker push {AWS_ACCOUNT_ID}.dkr.ecr.{Region}.amazonaws.com/{repositoryName}:{tag}`)
+
+## Related projects
+- Consumer (read message from kafka and insert into postgres): [Link](https://github.com/CuteChuanChuan/__SideProject__BikeOpenData-Consumer/tree/main)
